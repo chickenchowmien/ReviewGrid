@@ -7,3 +7,7 @@ Java+Selenium+Cucumber+Maven+JUnit+Git+Github+Jenkins
 
 For paralell -> maven surefire plugin + Selenium grid
 
+https://github.com/CybertekSchool/ReviewSessionsCode.git
+
+1) Create a feature file 
+2) 
