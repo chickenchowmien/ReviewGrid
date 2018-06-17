@@ -1,0 +1,100 @@
+# Created at 2018-06-17T15:24:24.350
+ForkStarter IOException: For input string: "33m"
+For input string: "33mS"
+For input string: "33m"
+For input string: "33m "
+For input string: "33m "
+For input string: "33m )0"
+For input string: "33m )0m25"
+For input string: "33m )0m25."
+For input string: "33m"
+For input string: "33mq"
+For input string: "33mq"
+For input string: ""
+For input string: "1;"
+For input string: "33m"
+For input string: "1;"
+For input string: "
+3m"
+For input string: "
+3m	"
+For input string: "
+3m	"
+For input string: "
+3m		"
+For input string: "
+3m		"
+For input string: "
+3m			"
+For input string: "
+3m			"
+For input string: "
+3m				"
+For input string: "
+3m				"
+For input string: "
+3m					"
+For input string: "
+3m					"
+For input string: "
+3m						"
+For input string: "
+3m						"
+For input string: "
+3m						".
+org.apache.maven.plugin.surefire.booterclient.output.MultipleFailureException: For input string: "33m"
+For input string: "33mS"
+For input string: "33m"
+For input string: "33m "
+For input string: "33m "
+For input string: "33m )0"
+For input string: "33m )0m25"
+For input string: "33m )0m25."
+For input string: "33m"
+For input string: "33mq"
+For input string: "33mq"
+For input string: ""
+For input string: "1;"
+For input string: "33m"
+For input string: "1;"
+For input string: "
+3m"
+For input string: "
+3m	"
+For input string: "
+3m	"
+For input string: "
+3m		"
+For input string: "
+3m		"
+For input string: "
+3m			"
+For input string: "
+3m			"
+For input string: "
+3m				"
+For input string: "
+3m				"
+For input string: "
+3m					"
+For input string: "
+3m					"
+For input string: "
+3m						"
+For input string: "
+3m						"
+For input string: "
+3m						"
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.<init>(ThreadedStreamConsumer.java:58)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer.<init>(ThreadedStreamConsumer.java:110)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.fork(ForkStarter.java:596)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.fork(ForkStarter.java:533)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.access$600(ForkStarter.java:115)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter$1.call(ForkStarter.java:362)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter$1.call(ForkStarter.java:342)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+

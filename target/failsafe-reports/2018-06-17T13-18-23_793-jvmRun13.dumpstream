@@ -1,0 +1,263 @@
+# Created at 2018-06-17T13:57:25.405
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2018-06-17T13:57:29.852
+Unexpected IOException: 7,1,Etsy product search,Etsy search for an item(Etsy product search),null,java.net.SocketException: Connection reset\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'DESKTOP-DKHP1QL'\002C ip: '192.168.56.2'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_172'\000ADriver info: driver.version: ChromeDriver,null,java.net.SocketException: Connection reset\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'DESKTOP-DKHP1QL'\002C ip: '192.168.56.2'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_172'\000ADriver info: driver.version: ChromeDriver,java.net.SocketException: Connection reset\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'DESKTOP-DKHP1QL'\002C ip: '192.168.56.2'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_172'\000ADriver info: driver.version: ChromeDriver,org.openqa.selenium.WebDriverException: \000Ajava.net.SocketException: Connection reset\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'DESKTOP-DKHP1QL'\002C ip: '192.168.56.2'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_172'\000ADriver info: driver.version: ChromeDriver\000ACaused by: java.net.SocketException: Connection reset\000A
+
+
+# Created at 2018-06-17T13:57:29.889
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T13:57:29.898
+Unexpected IOException with stream: [31mFailed scenarios:[0m
+
+
+# Created at 2018-06-17T13:57:29.907
+Unexpected IOException with stream: [31mC:/Users/Dell_J/Documents/reviewSource/mistake/ReviewSessionsCode/src/test/resources/features/EtsySearch4 - Copy (8).feature:3 [0m
+
+# Created at 2018-06-17T13:57:29.916
+Unexpected IOException with stream: # Etsy search for an item
+
+
+# Created at 2018-06-17T13:57:29.925
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T13:57:29.937
+Unexpected IOException with stream: 1
+
+# Created at 2018-06-17T13:57:29.948
+Unexpected IOException with stream:  Scenarios (
+
+# Created at 2018-06-17T13:57:29.957
+Unexpected IOException with stream: [31m1 failed[0m
+
+# Created at 2018-06-17T13:57:29.966
+Unexpected IOException with stream: )
+
+
+# Created at 2018-06-17T13:57:29.979
+Unexpected IOException with stream: 3
+
+# Created at 2018-06-17T13:57:29.988
+Unexpected IOException with stream:  Steps (
+
+# Created at 2018-06-17T13:57:29.997
+Unexpected IOException with stream: [31m1 failed[0m
+
+# Created at 2018-06-17T13:57:30.007
+Unexpected IOException with stream: , 
+
+# Created at 2018-06-17T13:57:30.017
+Unexpected IOException with stream: [36m2 skipped[0m
+
+# Created at 2018-06-17T13:57:30.027
+Unexpected IOException with stream: )
+
+
+# Created at 2018-06-17T13:57:30.047
+Unexpected IOException with stream: 36m
+
+# Created at 2018-06-17T13:57:30.058
+Unexpected IOException with stream: 39.028s
+
+
+# Created at 2018-06-17T13:57:30.068
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T13:57:30.078
+Unexpected IOException with stream: org.openqa.selenium.WebDriverException: java.net.SocketException: Connection reset
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-DKHP1QL', ip: '192.168.56.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: driver.version: ChromeDriver
+
+# Created at 2018-06-17T13:57:30.087
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T13:57:30.097
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
+
+# Created at 2018-06-17T13:57:30.106
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T13:57:30.117
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+
+# Created at 2018-06-17T13:57:30.128
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T13:57:30.137
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)
+
+# Created at 2018-06-17T13:57:30.148
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T13:57:30.158
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+
+# Created at 2018-06-17T13:57:30.167
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T13:57:30.178
+Unexpected IOException with stream: 	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+
+# Created at 2018-06-17T13:57:30.188
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T13:57:30.198
+Unexpected IOException with stream: 	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+
+# Created at 2018-06-17T13:57:30.208
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T13:57:30.217
+Unexpected IOException with stream: 	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+
+# Created at 2018-06-17T13:57:30.228
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T13:57:30.238
+Unexpected IOException with stream: 	at stepdefs.EtsySteps.user_in_on_Etsy_homepage(EtsySteps.java:27)
+
+# Created at 2018-06-17T13:57:30.248
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T13:57:30.257
+Unexpected IOException with stream: 	at ?.User in on Etsy homepage(C:/Users/Dell_J/Documents/reviewSource/mistake/ReviewSessionsCode/src/test/resources/features/EtsySearch4 - Copy (8).feature:4)
+
+# Created at 2018-06-17T13:57:30.267
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T13:57:30.276
+Unexpected IOException with stream: Caused by: java.net.SocketException: Connection reset
+
+# Created at 2018-06-17T13:57:30.287
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T13:57:30.311
+Unexpected IOException with stream: 	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+
+# Created at 2018-06-17T13:57:30.324
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T13:57:30.339
+Unexpected IOException with stream: 	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+
+# Created at 2018-06-17T13:57:30.361
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T13:57:30.374
+Unexpected IOException with stream: 	at okio.Okio$2.read(Okio.java:139)
+
+# Created at 2018-06-17T13:57:30.394
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T13:57:30.406
+Unexpected IOException with stream: 	at okio.AsyncTimeout$2.read(AsyncTimeout.java:237)
+
+# Created at 2018-06-17T13:57:30.419
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T13:57:30.429
+Unexpected IOException with stream: 	at okio.RealBufferedSource.indexOf(RealBufferedSource.java:345)
+
+# Created at 2018-06-17T13:57:30.469
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T13:57:30.480
+Unexpected IOException with stream: 	at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:217)
+
+# Created at 2018-06-17T13:57:30.493
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T13:57:30.505
+Unexpected IOException with stream: 	at okhttp3.internal.http1.Http1Codec.readHeaderLine(Http1Codec.java:212)
+
+# Created at 2018-06-17T13:57:30.534
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T13:57:30.586
+Unexpected IOException with stream: 	at okhttp3.internal.http1.Http1Codec.readResponseHeaders(Http1Codec.java:189)
+
+# Created at 2018-06-17T13:57:30.613
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T13:57:30.639
+Unexpected IOException with stream: 	at okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:88)
+
+# Created at 2018-06-17T13:57:30.662
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T13:57:30.679
+Unexpected IOException with stream: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+
+# Created at 2018-06-17T13:57:30.700
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T13:57:30.720
+Unexpected IOException with stream: 	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:45)
+
+# Created at 2018-06-17T13:57:30.738
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T13:57:30.756
+Unexpected IOException with stream: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+
+# Created at 2018-06-17T13:57:30.777
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T13:57:30.801
+Unexpected IOException with stream: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+
+# Created at 2018-06-17T13:57:30.817
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T13:57:30.836
+Unexpected IOException with stream: 	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+
+# Created at 2018-06-17T13:57:30.851
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T13:57:30.867
+Unexpected IOException with stream: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+
+# Created at 2018-06-17T13:57:30.884
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T13:57:30.900
+Unexpected IOException with stream: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+

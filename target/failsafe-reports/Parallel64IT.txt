@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: Parallel64IT
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.015 s <<< FAILURE! - in Parallel64IT
+Etsy search on FireFox(Etsy product search)  Time elapsed: 98.921 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+connection refused
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'WIN-9EIMIS0E4A0', ip: '172.31.17.181', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_172'
+Driver info: driver.version: unknown
+remote stacktrace: 
+Command duration or timeout: 98.89 seconds
+Caused by: org.openqa.selenium.WebDriverException: 
+connection refused
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'WIN-9EIMIS0E4A0', ip: '172.31.17.181', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_172'
+Driver info: driver.version: unknown
+remote stacktrace: 
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-DKHP1QL', ip: '192.168.56.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: driver.version: unknown
+
+initializationError(Parallel64IT)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException: Not a file or directory: C:\Users\Dell_J\Documents\reviewSource\mistake\ReviewSessionsCode\src\test\resources\features\EtsySearch4 - Copy (10).feature
+

@@ -1,0 +1,244 @@
+# Created at 2018-06-17T15:44:00.943
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2018-06-17T15:44:00.961
+ForkStarter IOException: For input string: "31m"
+For input string: "31me"
+For input string: "31me"
+For input string: "31me)3"
+For input string: "31me)3 "
+For input string: "31me)3 "
+For input string: "31me)3 )2"
+For input string: "31me)3 )2m43"
+For input string: "31me)3 )2m43."
+For input string: "31mn[".
+org.apache.maven.plugin.surefire.booterclient.output.MultipleFailureException: For input string: "31m"
+For input string: "31me"
+For input string: "31me"
+For input string: "31me)3"
+For input string: "31me)3 "
+For input string: "31me)3 "
+For input string: "31me)3 )2"
+For input string: "31me)3 )2m43"
+For input string: "31me)3 )2m43."
+For input string: "31mn["
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.<init>(ThreadedStreamConsumer.java:58)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer.<init>(ThreadedStreamConsumer.java:110)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.fork(ForkStarter.java:596)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.fork(ForkStarter.java:533)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.access$600(ForkStarter.java:115)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter$1.call(ForkStarter.java:362)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter$1.call(ForkStarter.java:342)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2018-06-17T15:44:04.586
+Unexpected IOException: 7,1,Etsy product search,Etsy search for an item(Etsy product search),null,chrome not reachable\000A  (Session info: chrome=67.0.3396.87)\000A  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab)\002Cplatform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'DESKTOP-DKHP1QL'\002C ip: '192.168.56.2'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_172'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6...\002C userDataDir: C:\005CUsers\005CDell_J\005CAppData\005CLoc...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: \002C unhandledPromptBehavior: \002C version: 67.0.3396.87\002C webStorageEnabled: true}\000ASession ID: ffb2ff2721539ab7eb453479943bcd4b,null,chrome not reachable\000A  (Session info: chrome=67.0.3396.87)\000A  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab)\002Cplatform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'DESKTOP-DKHP1QL'\002C ip: '192.168.56.2'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_172'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6...\002C userDataDir: C:\005CUsers\005CDell_J\005CAppData\005CLoc...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: \002C unhandledPromptBehavior: \002C version: 67.0.3396.87\002C webStorageEnabled: true}\000ASession ID: ffb2ff2721539ab7eb453479943bcd4b,chrome not reachable\000A  (Session info: chrome=67.0.3396.87)\000A  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab)\002Cplatform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'DESKTOP-DKHP1QL'\002C ip: '192.168.56.2'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_172'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6...\002C userDataDir: C:\005CUsers\005CDell_J\005CAppData\005CLoc...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: \002C unhandledPromptBehavior: \002C version: 67.0.3396.87\002C webStorageEnabled: true}\000ASession ID: ffb2ff2721539ab7eb453479943bcd4b,org.openqa.selenium.WebDriverException: \000Achrome not reachable\000A  (Session info: chrome=67.0.3396.87)\000A  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab)\002Cplatform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'DESKTOP-DKHP1QL'\002C ip: '192.168.56.2'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_172'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6...\002C userDataDir: C:\005CUsers\005CDell_J\005CAppData\005CLoc...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: \002C unhandledPromptBehavior: \002C version: 67.0.3396.87\002C webStorageEnabled: true}\000ASession ID: ffb2ff2721539ab7eb453479943bcd4b\000A
+
+
+# Created at 2018-06-17T15:44:04.618
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T15:44:04.631
+Unexpected IOException with stream: [31mFailed scenarios:[0m
+
+
+# Created at 2018-06-17T15:44:04.643
+Unexpected IOException with stream: [31mC:/Users/Dell_J/Documents/reviewSource/mistake/ReviewSessionsCode/src/test/resources/features/EtsySearch2.feature:3 [0m
+
+# Created at 2018-06-17T15:44:04.653
+Unexpected IOException with stream: # Etsy search for an item
+
+
+# Created at 2018-06-17T15:44:04.664
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T15:44:04.674
+Unexpected IOException with stream: 1
+
+# Created at 2018-06-17T15:44:04.683
+Unexpected IOException with stream:  Scenarios (
+
+# Created at 2018-06-17T15:44:04.694
+Unexpected IOException with stream: [31m1 failed[0m
+
+# Created at 2018-06-17T15:44:04.704
+Unexpected IOException with stream: )
+
+
+# Created at 2018-06-17T15:44:04.714
+Unexpected IOException with stream: 3
+
+# Created at 2018-06-17T15:44:04.724
+Unexpected IOException with stream:  Steps (
+
+# Created at 2018-06-17T15:44:04.735
+Unexpected IOException with stream: [31m1 failed[0m
+
+# Created at 2018-06-17T15:44:04.748
+Unexpected IOException with stream: , 
+
+# Created at 2018-06-17T15:44:04.759
+Unexpected IOException with stream: [32m2 passed[0m
+
+# Created at 2018-06-17T15:44:04.771
+Unexpected IOException with stream: )
+
+
+# Created at 2018-06-17T15:44:04.781
+Unexpected IOException with stream: 1m
+
+# Created at 2018-06-17T15:44:04.791
+Unexpected IOException with stream: 56.744s
+
+
+# Created at 2018-06-17T15:44:04.801
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T15:44:04.813
+Unexpected IOException with stream: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-DKHP1QL', ip: '192.168.56.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\Dell_J\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: ffb2ff2721539ab7eb453479943bcd4b
+
+# Created at 2018-06-17T15:44:04.825
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T15:44:04.836
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+# Created at 2018-06-17T15:44:04.851
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T15:44:04.861
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+# Created at 2018-06-17T15:44:04.871
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T15:44:04.881
+Unexpected IOException with stream: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created at 2018-06-17T15:44:04.892
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T15:44:04.902
+Unexpected IOException with stream: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+
+# Created at 2018-06-17T15:44:04.916
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T15:44:04.950
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+
+# Created at 2018-06-17T15:44:04.962
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T15:44:04.975
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+
+# Created at 2018-06-17T15:44:04.989
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T15:44:05.001
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+
+# Created at 2018-06-17T15:44:05.012
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T15:44:05.026
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+
+# Created at 2018-06-17T15:44:05.046
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T15:44:05.056
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+
+# Created at 2018-06-17T15:44:05.066
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T15:44:05.075
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+
+# Created at 2018-06-17T15:44:05.089
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T15:44:05.110
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+
+# Created at 2018-06-17T15:44:05.123
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T15:44:05.134
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+
+# Created at 2018-06-17T15:44:05.146
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T15:44:05.158
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+
+# Created at 2018-06-17T15:44:05.169
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T15:44:05.186
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:275)
+
+# Created at 2018-06-17T15:44:05.199
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T15:44:05.218
+Unexpected IOException with stream: 	at stepdefs.EtsySteps.search_results_should_be_displayed(EtsySteps.java:55)
+
+# Created at 2018-06-17T15:44:05.231
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T15:44:05.244
+Unexpected IOException with stream: 	at ?.Search results should be displayed(C:/Users/Dell_J/Documents/reviewSource/mistake/ReviewSessionsCode/src/test/resources/features/EtsySearch2.feature:6)
+
+# Created at 2018-06-17T15:44:05.257
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T15:44:05.271
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T15:44:05.287
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,Parallel42IT,null,null,null
+
+

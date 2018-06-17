@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: Parallel20IT
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.031 s <<< FAILURE! - in Parallel20IT
+initializationError(Parallel20IT)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException: Not a file or directory: C:\Users\Dell_J\Documents\reviewSource\mistake\ReviewSessionsCode\src\test\resources\features\EtsySearch1 - Copy.feature
+

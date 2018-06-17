@@ -1,0 +1,401 @@
+# Created at 2018-06-17T15:47:32.257
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2018-06-17T15:47:32.300
+ForkStarter IOException: For input string: "1m"
+For input string: "1mi"
+For input string: "1mi"
+For input string: "1mi#"
+For input string: "1mi#1"
+For input string: "1mi#1 "
+For input string: "1mi#1 "
+For input string: "1mi#1 )3"
+For input string: "1mi#1 )3 "
+For input string: "1mi#1 )3 "
+For input string: "1mi#1 )3 ,"
+For input string: "1mi#1 )3 ,"
+For input string: "1mi#1 )3 ,,"
+For input string: "1mi#1 )3 ,,"
+For input string: "1mi#1 )3 ,,)1"
+For input string: "1mi#1 )3 ,,)1m10"
+For input string: "1mi#1 )3 ,,)1m10."
+For input string: "1mi#1 )3 ,,)1m10."
+For input string: "1mi#1 )3 ,,)1m10.c"
+For input string: "1mi#1 )3 ,,)1m10.c"
+For input string: "1mi#1 )3 ,,)1m10.c	"
+For input string: "1mi#1 )3 ,,)1m10.c	"
+For input string: "1mi#1 )3 ,,)1m10.c		"
+For input string: "1mi#1 )3 ,,)1m10.c		"
+For input string: "1mi#1 )3 ,,)1m10.c			"
+For input string: "1mi#1 )3 ,,)1m10.c			"
+For input string: "1mi#1 )3 ,,)1m10.c				"
+For input string: "1mi#1 )3 ,,)1m10.c				"
+For input string: "1mi#1 )3 ,,)1m10.c					"
+For input string: "1mi#1 )3 ,,)1m10.c					"
+For input string: "1mi#1 )3 ,,)1m10.c						"
+For input string: "1mi#1 )3 ,,)1m10.c						"
+For input string: "1mi#1 )3 ,,)1m10.c							"
+For input string: "1mi#1 )3 ,,)1m10.c							"
+For input string: "1mi#1 )3 ,,)1m10.c								"
+For input string: "1mi#1 )3 ,,)1m10.c								"
+For input string: "1mi#1 )3 ,,)1m10.c									"
+For input string: "1mi#1 )3 ,,)1m10.c									"
+For input string: "1mi#1 )3 ,,)1m10.c										"
+For input string: "1mi#1 )3 ,,)1m10.c										"
+For input string: "1mi#1 )3 ,,)1m10.c											"
+For input string: "1mi#1 )3 ,,)1m10.c											"
+For input string: "1mi#1 )3 ,,)1m10.c												"
+For input string: "1mi#1 )3 ,,)1m10.c												"
+For input string: "1mi#1 )3 ,,)1m10.c													"
+For input string: "1mi#1 )3 ,,)1m10.c													"
+For input string: "1mi#1 )3 ,,)1m10.c														"
+For input string: "1mi#1 )3 ,,)1m10.c														"
+For input string: "1mi#1 )3 ,,)1m10.c															"
+For input string: "1mi#1 )3 ,,)1m10.c															"
+For input string: "1mi#1 )3 ,,)1m10.c																"
+For input string: "1mi#1 )3 ,,)1m10.c																"
+For input string: "1mi#1 )3 ,,)1m10.c																	"
+For input string: "1mi#1 )3 ,,)1m10.c																	"
+For input string: "1mi#1 )3 ,,)1m10.c																		"
+For input string: "1mi#1 )3 ,,)1m10.c																		"
+For input string: "1mi#1 )3 ,,)1m10.c																			"
+For input string: "1mi#1 )3 ,,)1m10.c																			"
+For input string: "1mi#1 )3 ,,)1m10.c																				"
+For input string: "1mi#1 )3 ,,)1m10.c																				"
+For input string: "1mi#1 )3 ,,)1m10.c																					"
+For input string: "1mi#1 )3 ,,)1m10.c																					"
+For input string: "1mi#1 )3 ,,)1m10.c																						"
+For input string: "1mi#1 )3 ,,)1m10.c																						"
+For input string: "1mi#1 )3 ,,)1m10.c																							"
+For input string: "1mi#1 )3 ,,)1m10.c																							"
+For input string: "1mi#1 )3 ,,)1m10.c																								"
+For input string: "1mi#1 )3 ,,)1m10.c																								"
+For input string: "1mi#1 )3 ,,)1m10.c																									"
+For input string: "1mi#1 )3 ,,)1m10.c																									"
+For input string: "1mi#1 )3 ,,)1m10.c																										"
+For input string: "1mi#1 )3 ,,)1m10.c																										"
+For input string: "1mi#1 )3 ,,)1m10.c																											"
+For input string: "1mi#1 )3 ,,)1m10.c																											"
+For input string: "1mi#1 )3 ,,)1m10.c																												"
+For input string: "1mi#1 )3 ,,)1m10.c																												"
+For input string: "1mi#1 )3 ,,)1m10.c																													"
+For input string: "1mi#1 )3 ,,)1m10.c																													"
+For input string: "1mi#1 )3 ,,)1m10.c																														"
+For input string: "1mi#1 )3 ,,)1m10.c																														"
+For input string: "1mi#1 )3 ,,)1m10.c																															"
+For input string: "1mi#1 )3 ,,)1m10.c																															"
+For input string: "1mi#1 )3 ,,)1m10.c																																"
+For input string: "1mi#1 )3 ,,)1m10.c																																"
+For input string: "1mi#1 )3 ,,)1m10.c																																	"
+For input string: "1mi#1 )3 ,,)1m10.c																																	"
+For input string: "1mi#1 )3 ,,)1m10.c																																		"
+For input string: "1mi#1 )3 ,,)1m10.c																																		".
+org.apache.maven.plugin.surefire.booterclient.output.MultipleFailureException: For input string: "1m"
+For input string: "1mi"
+For input string: "1mi"
+For input string: "1mi#"
+For input string: "1mi#1"
+For input string: "1mi#1 "
+For input string: "1mi#1 "
+For input string: "1mi#1 )3"
+For input string: "1mi#1 )3 "
+For input string: "1mi#1 )3 "
+For input string: "1mi#1 )3 ,"
+For input string: "1mi#1 )3 ,"
+For input string: "1mi#1 )3 ,,"
+For input string: "1mi#1 )3 ,,"
+For input string: "1mi#1 )3 ,,)1"
+For input string: "1mi#1 )3 ,,)1m10"
+For input string: "1mi#1 )3 ,,)1m10."
+For input string: "1mi#1 )3 ,,)1m10."
+For input string: "1mi#1 )3 ,,)1m10.c"
+For input string: "1mi#1 )3 ,,)1m10.c"
+For input string: "1mi#1 )3 ,,)1m10.c	"
+For input string: "1mi#1 )3 ,,)1m10.c	"
+For input string: "1mi#1 )3 ,,)1m10.c		"
+For input string: "1mi#1 )3 ,,)1m10.c		"
+For input string: "1mi#1 )3 ,,)1m10.c			"
+For input string: "1mi#1 )3 ,,)1m10.c			"
+For input string: "1mi#1 )3 ,,)1m10.c				"
+For input string: "1mi#1 )3 ,,)1m10.c				"
+For input string: "1mi#1 )3 ,,)1m10.c					"
+For input string: "1mi#1 )3 ,,)1m10.c					"
+For input string: "1mi#1 )3 ,,)1m10.c						"
+For input string: "1mi#1 )3 ,,)1m10.c						"
+For input string: "1mi#1 )3 ,,)1m10.c							"
+For input string: "1mi#1 )3 ,,)1m10.c							"
+For input string: "1mi#1 )3 ,,)1m10.c								"
+For input string: "1mi#1 )3 ,,)1m10.c								"
+For input string: "1mi#1 )3 ,,)1m10.c									"
+For input string: "1mi#1 )3 ,,)1m10.c									"
+For input string: "1mi#1 )3 ,,)1m10.c										"
+For input string: "1mi#1 )3 ,,)1m10.c										"
+For input string: "1mi#1 )3 ,,)1m10.c											"
+For input string: "1mi#1 )3 ,,)1m10.c											"
+For input string: "1mi#1 )3 ,,)1m10.c												"
+For input string: "1mi#1 )3 ,,)1m10.c												"
+For input string: "1mi#1 )3 ,,)1m10.c													"
+For input string: "1mi#1 )3 ,,)1m10.c													"
+For input string: "1mi#1 )3 ,,)1m10.c														"
+For input string: "1mi#1 )3 ,,)1m10.c														"
+For input string: "1mi#1 )3 ,,)1m10.c															"
+For input string: "1mi#1 )3 ,,)1m10.c															"
+For input string: "1mi#1 )3 ,,)1m10.c																"
+For input string: "1mi#1 )3 ,,)1m10.c																"
+For input string: "1mi#1 )3 ,,)1m10.c																	"
+For input string: "1mi#1 )3 ,,)1m10.c																	"
+For input string: "1mi#1 )3 ,,)1m10.c																		"
+For input string: "1mi#1 )3 ,,)1m10.c																		"
+For input string: "1mi#1 )3 ,,)1m10.c																			"
+For input string: "1mi#1 )3 ,,)1m10.c																			"
+For input string: "1mi#1 )3 ,,)1m10.c																				"
+For input string: "1mi#1 )3 ,,)1m10.c																				"
+For input string: "1mi#1 )3 ,,)1m10.c																					"
+For input string: "1mi#1 )3 ,,)1m10.c																					"
+For input string: "1mi#1 )3 ,,)1m10.c																						"
+For input string: "1mi#1 )3 ,,)1m10.c																						"
+For input string: "1mi#1 )3 ,,)1m10.c																							"
+For input string: "1mi#1 )3 ,,)1m10.c																							"
+For input string: "1mi#1 )3 ,,)1m10.c																								"
+For input string: "1mi#1 )3 ,,)1m10.c																								"
+For input string: "1mi#1 )3 ,,)1m10.c																									"
+For input string: "1mi#1 )3 ,,)1m10.c																									"
+For input string: "1mi#1 )3 ,,)1m10.c																										"
+For input string: "1mi#1 )3 ,,)1m10.c																										"
+For input string: "1mi#1 )3 ,,)1m10.c																											"
+For input string: "1mi#1 )3 ,,)1m10.c																											"
+For input string: "1mi#1 )3 ,,)1m10.c																												"
+For input string: "1mi#1 )3 ,,)1m10.c																												"
+For input string: "1mi#1 )3 ,,)1m10.c																													"
+For input string: "1mi#1 )3 ,,)1m10.c																													"
+For input string: "1mi#1 )3 ,,)1m10.c																														"
+For input string: "1mi#1 )3 ,,)1m10.c																														"
+For input string: "1mi#1 )3 ,,)1m10.c																															"
+For input string: "1mi#1 )3 ,,)1m10.c																															"
+For input string: "1mi#1 )3 ,,)1m10.c																																"
+For input string: "1mi#1 )3 ,,)1m10.c																																"
+For input string: "1mi#1 )3 ,,)1m10.c																																	"
+For input string: "1mi#1 )3 ,,)1m10.c																																	"
+For input string: "1mi#1 )3 ,,)1m10.c																																		"
+For input string: "1mi#1 )3 ,,)1m10.c																																		"
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.<init>(ThreadedStreamConsumer.java:58)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer.<init>(ThreadedStreamConsumer.java:110)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.fork(ForkStarter.java:596)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.fork(ForkStarter.java:533)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.access$600(ForkStarter.java:115)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter$1.call(ForkStarter.java:362)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter$1.call(ForkStarter.java:342)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2018-06-17T15:47:53.785
+Unexpected IOException: 7,1,Etsy product search,Etsy search for an item(Etsy product search),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=67.0.3396.87)\000A  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab)\002Cplatform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'DESKTOP-DKHP1QL'\002C ip: '192.168.56.2'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_172'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6...\002C userDataDir: C:\005CUsers\005CDell_J\005CAppData\005CLoc...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: \002C unhandledPromptBehavior: \002C version: 67.0.3396.87\002C webStorageEnabled: true}\000ASession ID: 2afcc6a478446bd6bae2ad0a5da9b6b2,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=67.0.3396.87)\000A  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab)\002Cplatform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'DESKTOP-DKHP1QL'\002C ip: '192.168.56.2'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_172'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6...\002C userDataDir: C:\005CUsers\005CDell_J\005CAppData\005CLoc...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: \002C unhandledPromptBehavior: \002C version: 67.0.3396.87\002C webStorageEnabled: true}\000ASession ID: 2afcc6a478446bd6bae2ad0a5da9b6b2,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=67.0.3396.87)\000A  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab)\002Cplatform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'DESKTOP-DKHP1QL'\002C ip: '192.168.56.2'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_172'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6...\002C userDataDir: C:\005CUsers\005CDell_J\005CAppData\005CLoc...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: \002C unhandledPromptBehavior: \002C version: 67.0.3396.87\002C webStorageEnabled: true}\000ASession ID: 2afcc6a478446bd6bae2ad0a5da9b6b2,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=67.0.3396.87)\000A  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab)\002Cplatform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'DESKTOP-DKHP1QL'\002C ip: '192.168.56.2'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_172'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6...\002C userDataDir: C:\005CUsers\005CDell_J\005CAppData\005CLoc...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: \002C unhandledPromptBehavior: \002C version: 67.0.3396.87\002C webStorageEnabled: true}\000ASession ID: 2afcc6a478446bd6bae2ad0a5da9b6b2\000A
+
+
+# Created at 2018-06-17T15:47:53.903
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T15:47:53.924
+Unexpected IOException with stream: [31mFailed scenarios:[0m
+
+
+# Created at 2018-06-17T15:47:53.943
+Unexpected IOException with stream: [31mC:/Users/Dell_J/Documents/reviewSource/mistake/ReviewSessionsCode/src/test/resources/features/EtsySearch2.feature:3 [0m
+
+# Created at 2018-06-17T15:47:53.961
+Unexpected IOException with stream: # Etsy search for an item
+
+
+# Created at 2018-06-17T15:47:53.990
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T15:47:54.012
+Unexpected IOException with stream: 1
+
+# Created at 2018-06-17T15:47:54.049
+Unexpected IOException with stream:  Scenarios (
+
+# Created at 2018-06-17T15:47:54.064
+Unexpected IOException with stream: [31m1 failed[0m
+
+# Created at 2018-06-17T15:47:54.113
+Unexpected IOException with stream: )
+
+
+# Created at 2018-06-17T15:47:54.128
+Unexpected IOException with stream: 3
+
+# Created at 2018-06-17T15:47:54.142
+Unexpected IOException with stream:  Steps (
+
+# Created at 2018-06-17T15:47:54.182
+Unexpected IOException with stream: [31m1 failed[0m
+
+# Created at 2018-06-17T15:47:54.201
+Unexpected IOException with stream: , 
+
+# Created at 2018-06-17T15:47:54.289
+Unexpected IOException with stream: [36m2 skipped[0m
+
+# Created at 2018-06-17T15:47:54.308
+Unexpected IOException with stream: )
+
+
+# Created at 2018-06-17T15:47:54.332
+Unexpected IOException with stream: 0m
+
+# Created at 2018-06-17T15:47:54.361
+Unexpected IOException with stream: 27.880s
+
+
+# Created at 2018-06-17T15:47:54.381
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T15:47:54.451
+Unexpected IOException with stream: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-DKHP1QL', ip: '192.168.56.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\Dell_J\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: 2afcc6a478446bd6bae2ad0a5da9b6b2
+
+# Created at 2018-06-17T15:47:54.473
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T15:47:54.496
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+# Created at 2018-06-17T15:47:54.512
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T15:47:54.528
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+# Created at 2018-06-17T15:47:54.542
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T15:47:54.557
+Unexpected IOException with stream: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created at 2018-06-17T15:47:54.570
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T15:47:54.584
+Unexpected IOException with stream: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+
+# Created at 2018-06-17T15:47:54.597
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T15:47:54.610
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+
+# Created at 2018-06-17T15:47:54.621
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T15:47:54.636
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+
+# Created at 2018-06-17T15:47:54.653
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T15:47:54.671
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+
+# Created at 2018-06-17T15:47:54.684
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T15:47:54.713
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+
+# Created at 2018-06-17T15:47:54.727
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T15:47:54.739
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+
+# Created at 2018-06-17T15:47:54.750
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T15:47:54.763
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+
+# Created at 2018-06-17T15:47:54.777
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T15:47:54.790
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+
+# Created at 2018-06-17T15:47:54.803
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T15:47:54.816
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+
+# Created at 2018-06-17T15:47:54.838
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T15:47:54.855
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+
+# Created at 2018-06-17T15:47:54.870
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T15:47:54.883
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:275)
+
+# Created at 2018-06-17T15:47:54.902
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T15:47:54.925
+Unexpected IOException with stream: 	at stepdefs.EtsySteps.user_in_on_Etsy_homepage(EtsySteps.java:40)
+
+# Created at 2018-06-17T15:47:54.941
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T15:47:54.964
+Unexpected IOException with stream: 	at ?.User in on Etsy homepage(C:/Users/Dell_J/Documents/reviewSource/mistake/ReviewSessionsCode/src/test/resources/features/EtsySearch2.feature:4)
+
+# Created at 2018-06-17T15:47:54.979
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T15:47:54.995
+Unexpected IOException with stream: 
+
+
+# Created at 2018-06-17T15:47:55.013
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,Parallel42IT,null,null,null
+
+

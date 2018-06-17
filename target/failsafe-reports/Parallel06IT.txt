@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: Parallel06IT
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 94.08 s <<< FAILURE! - in Parallel06IT
+Etsy search on FireFox(Etsy product search)  Time elapsed: 90.405 s  <<< ERROR!
+cucumber.runtime.CucumberException: 
+Step [User searches for bamboo spoon in firefox] is defined with 1 parameters at 'stepdefs.EtsyStepsFirefox.user_searches_for(String) in file:/C:/Users/Dell_J/Documents/reviewSource/mistake/ReviewSessionsCode/target/test-classes/'.
+However, the gherkin step has 0 arguments.
+Step text: User searches for bamboo spoon in firefox
+

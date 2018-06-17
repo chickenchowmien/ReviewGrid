@@ -1,0 +1,161 @@
+# Created at 2018-06-17T15:47:32.256
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2018-06-17T15:47:32.370
+ForkStarter IOException: For input string: "31m"
+For input string: "31m
+1"
+For input string: "31m
+1 "
+For input string: "31m
+1 "
+For input string: "31m
+1 )3"
+For input string: "31m
+1 )3 "
+For input string: "31m
+1 )3 "
+For input string: "31m
+1 )3 )1"
+For input string: "31m
+1 )3 )1m46"
+For input string: "31m
+1 )3 )1m46."
+For input string: "31m
+#1 )3 ,)0m12.o														"
+102
+105
+108
+110
+113
+116
+120
+122
+126
+129
+132
+135
+137
+139
+142
+145
+148
+152
+156
+158
+163
+167
+170
+174
+177
+180
+184
+187
+191
+194
+198
+199
+202
+205
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+221.
+org.apache.maven.plugin.surefire.booterclient.output.MultipleFailureException: For input string: "31m"
+For input string: "31m
+1"
+For input string: "31m
+1 "
+For input string: "31m
+1 "
+For input string: "31m
+1 )3"
+For input string: "31m
+1 )3 "
+For input string: "31m
+1 )3 "
+For input string: "31m
+1 )3 )1"
+For input string: "31m
+1 )3 )1m46"
+For input string: "31m
+1 )3 )1m46."
+For input string: "31m
+#1 )3 ,)0m12.o														"
+102
+105
+108
+110
+113
+116
+120
+122
+126
+129
+132
+135
+137
+139
+142
+145
+148
+152
+156
+158
+163
+167
+170
+174
+177
+180
+184
+187
+191
+194
+198
+199
+202
+205
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+221
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.<init>(ThreadedStreamConsumer.java:58)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer.<init>(ThreadedStreamConsumer.java:110)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.fork(ForkStarter.java:596)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.fork(ForkStarter.java:533)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.access$600(ForkStarter.java:115)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter$1.call(ForkStarter.java:362)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter$1.call(ForkStarter.java:342)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+
