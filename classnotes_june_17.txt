@@ -1,0 +1,9 @@
+06/17/2018
+----------
+
+Sunday review session.
+
+Java+Selenium+Cucumber+Maven+JUnit+Git+Github+Jenkins
+
+For paralell -> maven surefire plugin + Selenium grid
+
