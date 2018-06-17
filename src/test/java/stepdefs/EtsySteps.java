@@ -11,10 +11,12 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import pages.EtsyPage;
 
 public class EtsySteps {
 	
 	private WebDriver driver;
+	private EtsyPage etsy;
 	
 	@Given("User in on Etsy homepage")
 	public void user_in_on_Etsy_homepage() {
@@ -26,11 +28,11 @@ public class EtsySteps {
 	   Assert.assertEquals("Etsy.com | Shop for anything from creative people everywhere",
 			   driver.getTitle());
 	}
-
+	
 	@When("User searches for {string}")
-	public void user_searches_for(String string) {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new PendingException();
+	public void user_searches_for(String keyword) {
+		etsy = new EtsyPage(driver);
+		
 	}
 
 	@Then("Search results should be displayed")
